@@ -69,3 +69,28 @@ print()
 print('     help(my_function) =')
 print()
 help(my_function)
+# Slices: rebanadas
+print("Slices: Rebanadas")
+print()
+fruit = 'banana'
+print("     fruit = 'banana'")
+print()
+print("     print(fruit[0]) =", fruit[0])
+print("     print(fruit[-1]) =", fruit[-1])
+print("     print(fruit[0:3]) =", fruit[0:3])
+print("     print(fruit[::2]) =", fruit[::2])
+print("     print(fruit[3:3]) =", fruit[3:3])
+print("     print(fruit[:]) =", fruit[:])
+print("     print(fruit[1:-1:2]) =", fruit[1:-1:2])
+print()
+long_word = 'ferrocarril'
+print("     long_word = 'ferrocarril'")
+print()
+print("     print(long_word[1:4]) =", long_word[1:4])
+print("     print(long_word[1:8]) =", long_word[1:8])
+print("     print(long_word[::-1]) =", long_word[::-1])
+print("     print(long_word[:8:3]) =", long_word[:8:3])
+print("     print(long_word[::2]) =", long_word[::2])
+
+
+print()
