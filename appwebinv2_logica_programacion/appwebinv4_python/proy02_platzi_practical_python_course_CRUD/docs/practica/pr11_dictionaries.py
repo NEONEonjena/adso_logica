@@ -7,6 +7,7 @@ rae['pizza'] = 'Comida rápida triangular'
 rae['pasta'] = 'Comida popular italiana'
 print("     rae = {}")
 print("     rae['pizza'] = 'Comida rápida triangular'")
+print("     rae['pasta'] = 'Comida popular italiana'")
 print()
 print("     print(rae) =", rae)
 print()

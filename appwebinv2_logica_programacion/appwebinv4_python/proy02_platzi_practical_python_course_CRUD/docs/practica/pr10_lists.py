@@ -23,7 +23,7 @@ print("     countries[0] = 'Ecuador'")
 print("     print(countries) =", countries)
 print()
 # Clonar una lista
-print("Clonar una lista")
+print("Alias: Clonar una lista")
 print()
 global_countries = countries
 countries[0] = 'Guatemala'
@@ -65,7 +65,7 @@ a = list(range(0,20,2))
 b = list(range(0,10))
 fruits = list()
 random_numbers = []
-print("     a = list(range(0,100,2))")
+print("     a = list(range(0,20,2))")
 print("     b = list(range(0,10))")
 print("     fruits = list()")
 print("     random_numbers = []")
