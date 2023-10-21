@@ -28,12 +28,12 @@ def upper(func):
 
 @upper
 def say_my_name(name):
-    print('Hola, {}'.format(name))
+    return 'Hola, {}'.format(name)
     
 
 if __name__ == '__main__':
     print()
-    say_my_name('Albeiro')
+    print(say_my_name('Albeiro'))
     # needs_password()
 
 print()
