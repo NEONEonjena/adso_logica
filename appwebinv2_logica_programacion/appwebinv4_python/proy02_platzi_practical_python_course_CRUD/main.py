@@ -90,7 +90,7 @@ def _save_clients_to_storage():
         writer = csv.DictWriter(f, fieldnames=CLIENT_SCHEMA)
         writer.writerows(clients)
 
-        os.remove(CLIENT_TABLE)
+    os.remove(CLIENT_TABLE)
     os.rename(tmp_table_name, CLIENT_TABLE)
 
 
