@@ -48,7 +48,7 @@ def list(ctx):
     click.echo('-' * 122)
 
     for client in clients_list:
-        click.echo('| {uid} \t| {name} \t| {company} \t\t| {email} \t| {position}\t |'.format(
+        click.echo('| {uid} \t| {name} \t| {company} \t| {email} \t| {position}\t |'.format(
             uid=client['uid'],
             name=client['name'],
             company=client['company'],
