@@ -6,16 +6,6 @@ print("     print(list) =", list)
 print("     print(list[0]) =", list[0])
 print("     type(list) =", type(list))
 
-# Diccionarios   : <class 'dict'>
-print("\nDiccionarios    : <class 'dict'>")
-rae = {'pizza': 'Comida rápida triangular', 'pasta': 'Comida popular italiana'}
-print("     rae = {'pizza': 'Comida rápida triangular', 'pasta': 'Comida popular italiana'}")
-print("     print(rae) =", rae)
-print("     print(rae.keys()) =", rae.keys())
-print("     print(rae.values()) =", rae.values())
-print("     print(rae.items()) =", rae.items())
-print("     type(rae) =", type(rae))
-
 # Tuplas   : <class 'tuple'>
 print("\nTuplas    : <class 'tuple'>")
 a = 1, 2, 3
@@ -26,4 +16,14 @@ print("     print(a) =", a)
 print("     print(b) =", b)
 print("     print(type(a)) =", type(a))
 print("     print(type(b)) =", type(a))
+
+# Diccionarios   : <class 'dict'>
+print("\nDiccionarios    : <class 'dict'>")
+rae = {'pizza': 'Comida rápida triangular', 'pasta': 'Comida popular italiana'}
+print("     rae = {'pizza': 'Comida rápida triangular', 'pasta': 'Comida popular italiana'}")
+print("     print(rae) =", rae)
+print("     print(rae.keys()) =", rae.keys())
+print("     print(rae.values()) =", rae.values())
+print("     print(rae.items()) =", rae.items())
+print("     type(rae) =", type(rae))
 print()
