@@ -1,6 +1,5 @@
-print()
 # Concatena
-print("Concatena")
+print("\nConcatena")
 print("     01: a + b =", 'a' + 'b')
 print("     02: a, b =", 'a', 'b')
 # Divide sin decimal
