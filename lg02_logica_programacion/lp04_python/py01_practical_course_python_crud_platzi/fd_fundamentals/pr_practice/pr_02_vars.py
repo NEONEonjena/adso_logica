@@ -1,3 +1,4 @@
+print()
 print("hola, vars")
 # Esto es una variable
 my_name = "Albeiro"
@@ -11,5 +12,5 @@ print("Aquí cambió", my_name)
 # Solicitar un valor -> input
 my_name = input("Cuál es tu nombre: ")
 my_age = input("Cuál es tu edad: ")
-print("Nombre: ", my_name)
-print("Tienes: ", my_age, " años")
+print("\nHola", my_name, "tienes", my_age, "años")
+print()
