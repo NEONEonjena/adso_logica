@@ -1,9 +1,18 @@
-lives = 3
-print(type(lives))
+# Iniciar variables int
+print("\nIniciar variables int")
+print()
 age = 12
-buget = 100
-temperature = 12.12
-print(type(temperature))
+temperature_mas = 12.12
+temperature_menos = -12.12
+print("     age = 12")
+print("     temperature = 12.12")
+print("     temperature_menos = -12.12")
+print("     print(age) =", age)
+print("     print(temperature_mas) =", temperature_mas)
+print("     print(temperature_menos) =", temperature_menos)
+print()
+
+
 lives = 2
 print(lives)
 lives = 1
