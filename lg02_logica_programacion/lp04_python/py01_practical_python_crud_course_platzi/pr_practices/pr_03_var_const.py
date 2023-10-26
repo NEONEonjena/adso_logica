@@ -8,7 +8,7 @@ user_age = 40
 user_height = 1.72
 user_blood_gr = 'O'
 user_blood_tp = '+'
-user_is_activate = False
+user_is_activate = True
 print("     user_name = 'Edwin'")
 print("     user_lastname = 'Ramos'")
 print("     user_age = 40")
@@ -24,15 +24,6 @@ print("     print(user_height) =", user_height)
 print("     print(user_blood_gr) =", user_blood_gr)
 print("     print(user_blood_tp) =", user_blood_tp)
 print("     print(user_is_activate) =", user_is_activate)
-print()
-
-# Variables dinámicas
-print('-' * 80)
-print('Variables dinámicas')
-print()
-user_name = 'Albeiro'
-print("     user_name = 'Albeiro'")
-print("     print(user_name) =", user_name)
 print()
 
 # Variables privadas : Guión bajo ( _ )

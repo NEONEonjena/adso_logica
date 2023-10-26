@@ -44,7 +44,7 @@ print()
 print('-' * 50)
 print("Booleanos    : <class 'bool'>")
 print()
-user_is_activate = False
+user_is_activate = True
 print("     user_is_activate = False")
 print("     print(user_is_activate) =", user_is_activate)
 print("     type(user_is_activate) =", type(user_is_activate))
