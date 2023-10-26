@@ -1,6 +1,6 @@
-# Iniciar variables string
+# Iniciar variables
 print('-' * 100)
-print("Iniciar variables string")
+print("Iniciar variables")
 print()
 character = '1'
 name = 'Albeiro'
@@ -19,7 +19,7 @@ print("     template = character + '. ' + 'Hola, mi nombre es ' + name + ' y mi 
 print("     print(template) =", template)
 print()
 
-# Concatenar strings    : format()
+# Concatenar strings : f {}
 print('-' * 100)
 print("Concatenar strings : f {}")
 print()

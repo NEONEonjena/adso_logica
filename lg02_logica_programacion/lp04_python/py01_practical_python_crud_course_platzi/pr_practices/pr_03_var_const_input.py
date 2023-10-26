@@ -28,7 +28,7 @@ print("     _category = 20")
 print("     print(_category) =", _category)
 print()
 
-# Variables privadas : Guión bajo ( _ )
+# Variables super privadas : Doble guión bajo ( __ )
 print('-' * 80)
 print('Variables super privadas : Doble guión bajo ( __ )')
 print()

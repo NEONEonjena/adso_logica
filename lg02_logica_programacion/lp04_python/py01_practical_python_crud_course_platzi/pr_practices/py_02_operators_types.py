@@ -11,11 +11,6 @@ print("     24 % 5 =", 24 % 5)
 # Exponente
 print("Exponente")
 print("     2**8 =", 2**8)
-# Tipos
-print("Tipos")
-print("     Entero  : type(5) =", type(5))
-print("     Decimal : type(2.5) =", type(2.5))
-print("     Cadena  : type('Albeiro') =", type("Albeiro"))
 # Operaciones
 print("Operaciones con cadenas")
 print("     Multiplica la cadena: 'Hola ' * 5 = ", ('Hola ' * 5))

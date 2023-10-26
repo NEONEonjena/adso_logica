@@ -17,3 +17,12 @@ print(8 + 3 - 1)
 # print(10 / 0) # Imposible división por cero
 print ('Hola' + ' mundo')
 print ('Hola ' * 3)
+
+# Imprimir operaciones aritméticas
+print('-' * 90)
+print('Imprimir operaciones aritméticas')
+print()
+print("     print(12+5) =", 12+5)
+print("     print(10-5) =", 10-5)
+print("     print(2*3) =", 2*3)
+print("     print(8/2) =", 8/2)
