@@ -6,21 +6,24 @@ user_name = 'Edwin'
 user_lastname = 'Ramos'
 user_age = 40
 user_height = 1.72
-blood_group = 'O'
-blood_type = '+'
+user_blood_gr = 'O'
+user_blood_tp = '+'
+user_is_activate = False
 print("     user_name = 'Edwin'")
 print("     user_lastname = 'Ramos'")
 print("     user_age = 40")
 print("     user_height = 1.72")
-print("     blood_group = 'O'")
-print("     blood_type = '+'")
+print("     user_blood_gr = 'O'")
+print("     user_blood_tp = '+'")
+print("     user_is_activate = False")
 print()
 print("     print(user_name) =", user_name)
 print("     print(user_lastname) =", user_lastname)
 print("     print(user_age) =", user_age)
 print("     print(user_height) =", user_height)
-print("     print(blood_group) =", blood_group)
-print("     print(blood_type) =", blood_type)
+print("     print(user_blood_gr) =", user_blood_gr)
+print("     print(user_blood_tp) =", user_blood_tp)
+print("     print(user_is_activate) =", user_is_activate)
 print()
 
 # Variables dinámicas

@@ -8,6 +8,7 @@ print("     print('Edad     : 40')          =       Edad     : 40")
 print("     print('Estatura : 1.72')        =       Estatura : 1.72")
 print("     print('Grp sang : O')           =       Grp sang : O")
 print("     print('Tip sang : +')           =       Tip sang : +")
+print("     print('¿Activo? : False')       =       ¿Activo? : False")
 
 # Comentarios
 """
