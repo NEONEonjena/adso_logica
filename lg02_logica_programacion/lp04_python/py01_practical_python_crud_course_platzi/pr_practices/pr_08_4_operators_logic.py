@@ -40,3 +40,43 @@ print('not(False and False) =>', not (False and False))
 stock = input('Ingrese el número de stock => ')
 stock = int(stock)
 print(not (stock >= 100 and stock <= 1000))
+
+# Operadores lógicos
+print("Operadores lógicos")
+print()
+print("     x = 2")
+print("     y = 3")
+print("     a = 5")
+print("     b = 7")
+print()
+# AND
+print("AND: Es verdadero cuando todos los valores son verdaderos")
+print("     print((x < y) and (a < b)) =", (x < y) and (a < b))
+print("     print((x < y) and (a > b)) =", (x < y) and (a > b))
+print()
+# OR
+print(" OR: Es verdadero cuando algún valor es verdadero")
+print("     print((x < y) or (a < b)) =", (x < y) or (a < b))
+print("     print((x > y) or (a > b)) =", (x > y) or (a > b))
+print()
+# NOT
+print("NOT: Cambia el resultado de falso a verdadero o de verdadero a falso")
+print()
+# Condicional if-else
+print("Condicional if-else")
+print()
+print("     message = '' ")
+print()
+print("     if x < y:")
+print("         message = 'x es menor que y'")
+print("     else:")
+print("         message = 'x no es menor que y'")
+message = ''
+if x < y:
+    message = 'x es menor que y'
+else:
+    message = 'x no es menor que y'
+print()
+print("     print(message) = ", message)
+
+print()
