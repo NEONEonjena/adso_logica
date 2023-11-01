@@ -1,31 +1,27 @@
 
+clients = 'pablo,ricardo,'
 
-clients = 'tomas,juan,'
 
-
-def create_client(client_name): #1
+def create_client(client_name):
     global clients
 
     clients += client_name
     _add_comma()
 
 
-def list_clients(): #3
+def list_clients():
+    global clients
+
     print(clients)
 
 
-def _add_comma(): #2 
+def _add_comma():
     global clients
 
     clients += ','
 
 
 if __name__ == '__main__':
-    client_name = 'julian'
-
     list_clients()
-    create_client(client_name)
-
+    create_client('david')
     list_clients()
-
-

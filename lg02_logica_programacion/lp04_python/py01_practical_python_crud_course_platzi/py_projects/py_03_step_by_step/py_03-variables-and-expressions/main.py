@@ -1,8 +1,7 @@
 
 
-clients = 'tomas,juan,'
-
+clients = 'pablo,ricardo,'
 
 if __name__ == '__main__':
-    clients += 'julian'
+    clients += 'david'
     print(clients)
