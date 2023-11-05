@@ -46,7 +46,7 @@ print()
 
 # Constantes (En mayúscula sostenida)
 print('-' * 80)
-print('Constantes (En mayúscula sostenida)')
+print('Constantes (En mayúscula sostenida, aunque se pueden modificar)')
 print()
 PI = 3.1416
 print("     PI = 3.1416")
